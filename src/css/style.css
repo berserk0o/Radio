@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+.title {
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title__colored {
+	color: #F9BF3B;
+	font-size: 41px;
+    line-height: 41px;
+}
+
+.title__size {
+	font-size: 80px;
+	color: #FFF;
+	line-height: 80px;
+}
+
+
+.btn{
+	width: 315px;
+	height: 72px;
+	margin: 0 auto;
+	display: block;
+	background: linear-gradient(0deg, #FF4D00 0%, #FEB05D 100%);
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+	font-size: 21px;
+	font-weight: 500;
+	color: #fff;
+  line-height: normal;;
+}
