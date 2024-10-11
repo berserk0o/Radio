@@ -5,15 +5,17 @@
 }
 
 body {
-	background-color: #6b6b6b;
+	background-color: #EFEFEF;
+	
 }
 
-.container{
+
+.container {
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-.promo{
+.promo {
 	background: url(../img/main_bg.jpg) center center / cover no-repeat;
 	padding: 22px 0 53px 0;
 }
@@ -24,10 +26,10 @@ body {
 	text-transform: uppercase;
 }
 
-.title__colored{
+.title__colored {
 	color: #F9BF3B;
 	font-size: 41px;
-  line-height: 41px;
+	line-height: 41px;
 }
 
 .title__size {
@@ -36,16 +38,16 @@ body {
 	line-height: 80px;
 }
 
-.promo h1{
+.promo h1 {
 	margin-bottom: 12px;
-} 
+}
 
 .promo h2 {
 	margin-bottom: 12px;
 }
 
 
-.btn{
+.btn {
 	width: 315px;
 	height: 72px;
 	margin: 0 auto;
@@ -57,29 +59,30 @@ body {
 	font-size: 21px;
 	font-weight: 500;
 	color: #fff;
-  line-height: normal;;
+	line-height: normal;
+	;
 	margin-bottom: 75px;
 
 	cursor: pointer;
 }
 
-.logo{
-		margin-bottom: 52px;
+.logo {
+	margin-bottom: 52px;
 }
 
-.logo__text{
+.logo__text {
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFF;
 }
 
-.logo__img{
+.logo__img {
 	margin: 0 auto;
 	display: block;
 	margin-bottom: 13px;
 }
 
-.promo__text{
+.promo__text {
 	text-align: center;
 	color: #FFF;
 	size: 21px;
@@ -87,51 +90,79 @@ body {
 	margin-bottom: 75px;
 }
 
-.promo__text span{
+.promo__text span {
 	color: orange;
 
 }
 
-.promo__more-text{
-	 color: #FFF;
+.promo__more-text {
+	color: #FFF;
 	text-align: center;
 	size: 15px;
 	line-height: 18px;
 	margin-bottom: 10px;
 }
 
-.promo__more-img{
+.promo__more-img {
 	margin: 0 auto;
 	display: block;
 	width: 34px;
 	cursor: pointer;
 }
 
+.vebinar__title {
+	font-weight: 500px;
+	font-size: 30px;
+	line-height: 27px;
+	margin-bottom: 14px;
+	color: #252525;
+}
+
+.vebinar__subtitle {
+	font-weight: 500px;
+	font-size: 23px;
+	line-height: 27px;
+	text-align: center;
+	margin-bottom: 42px;
+	color: #4A4A4A;
+
+}
+.divider{
+	width: 220px;
+	height: 7px;
+	background-color: #F9BF3B;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+
+.vebinar{
+padding: 80px 0 80px  0;
+
+}
+
+.vebinar__wrapper{
+	display: flex;
+	justify-content: space-between;
+
+}
+.vebinar__text{
+
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 21px;
+	text-align: center;
+	color: #4A4A4A;
 
 
+}	
+.vebinar__item{
+	width: 360px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.vebinar__img{
+	width: 100%;
+	margin-bottom: 13px;
+}
 
 
 
