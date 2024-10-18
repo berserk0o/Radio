@@ -9,6 +9,15 @@ body {
 	
 }
 
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
 
 .container {
 	max-width: 1140px;
@@ -60,9 +69,7 @@ body {
 	font-weight: 500;
 	color: #fff;
 	line-height: normal;
-	;
 	margin-bottom: 75px;
-
 	cursor: pointer;
 }
 
@@ -162,7 +169,8 @@ padding: 80px 0 80px  0;
 .vebinar__img{
 	width: 100%;
 	margin-bottom: 13px;
-}.info__title{
+}
+.info__title{
 	text-align: right;
 	color:  #F9BF3B;
 	margin-bottom: 16px;	
@@ -170,17 +178,87 @@ padding: 80px 0 80px  0;
  .info {
 	background-color: black;
 	padding: 100px 0 141px 0;
+
+	position: relative;
  }
+
+
+ .info__img{
+		position: absolute; 
+		top: 191px;
+		left: 307px;
+		z-index: 1;
+		width: 615px;
+		height: 361px;
+ }
+
+.info__img img{
+	width: 100%;
+	height: 100%;
+}
 
 .info__text{
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 18px;
 	text-align: right;
-	padding-left: 380px;
+	padding-left: 420px;
 	color: #FFF;
-	margin-bottom: 18px;
+	margin-bottom: 22px;
+
+	position: relative;
+	z-index: 2;
 }
+
+
 .info__text.medium{
-	font-weight: 500;
+	font-weight: 600;
+}
+
+.img__train{
+	margin: 0 auto;
+	display: block;
+	box-sizing: border-box;
+}
+.training{
+	background: url(../img/Bg.jpg) center center / cover no-repeat;
+}
+
+.train__logo{
+	width: 100%;
+	
+}
+
+.training__title{
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	color: #EFEFEF;
+	text-transform: uppercase;
+}
+
+.train__wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 102px;
+
+}
+
+
+.train__round{
+	width: 118px;
+	height: 118px;
+	background: #F9BF3B;
+	border-radius: 100%;
+}
+
+.train__img {}
+
+.text__train{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	color: #FFF;
+	
 }
