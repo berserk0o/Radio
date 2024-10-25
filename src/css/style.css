@@ -235,12 +235,21 @@ padding: 80px 0 80px  0;
 	text-align: center;
 	color: #EFEFEF;
 	text-transform: uppercase;
+	padding-top: 80px;
+	margin-bottom: 12px;
+	
 }
+
+.divider{
+	margin-bottom: 40px;
+}
+
+
 
 .train__wrapper {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 102px;
+	padding-bottom: 102px;
 
 }
 
@@ -250,9 +259,20 @@ padding: 80px 0 80px  0;
 	height: 118px;
 	background: #F9BF3B;
 	border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-left: 57px;
+	margin-right: 57px;
 }
 
-.train__img {}
+.train__img {
+	display: block;
+	margin: 0 auto;
+	width: 60px;
+
+
+}
 
 .text__train{
 	text-align: center;
@@ -260,5 +280,27 @@ padding: 80px 0 80px  0;
 	font-weight: 300;
 	text-align: center;
 	color: #FFF;
-	
+	margin-bottom: 102px;	
+}
+
+.present{
+	padding-bottom: 80px;
+	padding-top: 80px;
+
+
+
+}
+.present__img{
+	width: 155px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+.present__title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 45px;
+	margin-bottom: 60px;
 }
